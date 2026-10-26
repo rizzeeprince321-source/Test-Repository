@@ -1,0 +1,4 @@
+git clone https://github.com/kaomei/stickman-video-director.git
+cd stickman-video-director
+mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
+cp -R skills/directing-stickman-videos "${CODEX_HOME:-$HOME/.codex}/skills/"
